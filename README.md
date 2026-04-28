@@ -1,4 +1,15 @@
-#  Landing Page
+# 🌌 Landing Page
+
+Este é um projeto de landing page desenvolvido para uma consultoria profissional. O foco principal foi criar uma interface elegante e totalmente responsiva, garantindo uma excelente experiência de usuário tanto em dispositivos móveis quanto em desktop.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5:** Estrutura semântica do site.
+* **CSS3:** Estilização avançada com Flexbox, Grid e variáveis (`:root`).
+* **JavaScript (ES6+):** Lógica para manipulação do DOM e inicialização do Swiper.
+* **Swiper.js:** Biblioteca utilizada para os carrosséis de imagens e depoimentos.
+* **Font Awesome:** Ícones vetoriais para redes sociais.
+* **Google Fonts:** Utilização das fontes *Poppins* e *Playfair Display*.
 
 ## 🔧 Como rodar o projeto
 
