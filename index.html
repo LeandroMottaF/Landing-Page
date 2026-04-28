@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <div class="logo">Store *****</div>
+            <ul class="nav-links">
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">O Espaço</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sua jornada começa aqui</h1>
+            <p>*****************************************************************</p>
+            <a href="https://wa.me/SEUNUMERO" class="btn-main">Agendar Consulta</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="container">
+        <h2 class="section-title">Serviços</h2>
+        <div class="grid-servicos">
+            <div class="card">
+                <h3>********</h3>
+                <p>--------</p>
+                <span class="price">R$ 0000</span>
+            </div>
+            <div class="card">
+                <h3>********</h3>
+                <p>--------</p>
+                <span class="price">R$ 0000</span>
+            </div>
+            <div class="card">
+                <h3>********</h3>
+                <p>--------</p>
+                <span class="price">R$ 0000</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="container bg-light">
+        <h2 class="section-title" style="margin-bottom: 180px; margin-top: -50px;">O Espaço</h2>
+        <div class="galeria-container">
+            <div class="swiper swiper-galeria">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box" style="background-image: url('SUA_IMAGEM.jpg');"></div>
+                        <div class="foto-legenda">Nome do Espaço</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="container">
+        <h2 class="section-title">Depoimentos</h2>
+        <div class="depoimentos-layout">
+            <div class="coluna-carrossel">
+                <div class="swiper swiper-depoimentos">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="coluna-dupla-depoimentos">
+                                <div class="testimonial-card">
+                                    <p>"***********************************"</p>
+                                    <span>- **********</span>
+                                </div>
+                                <div class="testimonial-card">
+                                    <p>"***********************************"</p>
+                                    <span>- **********</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="coluna-dupla-depoimentos">
+                                <div class="testimonial-card">
+                                    <p>"***********************************"</p>
+                                    <span>- **********</span>
+                                </div>
+                                <div class="testimonial-card">
+                                    <p>"***********************************"</p>
+                                    <span>- **********</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="coluna-formulario">
+                <div class="form-side">
+                    <h3>Deixe seu Relato</h3>
+                    <form id="feedback-form">
+                        <input type="text" id="client-name" placeholder="Seu Nome" required>
+                        <textarea id="client-message" placeholder="Conte sua experiência..." required></textarea>
+                        <button type="submit" class="btn-main">Enviar Depoimento</button>
+                    </form>
+                    <div id="status-message" class="hidden">Gratidão! Recebemos seu carinho.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container bg-dark">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>Atendimento</h3>
+                <p>Segunda a Sábado: 09h às 19h</p>
+                <p>Online e Presencial</p>
+            </div>
+            <div class="footer-social">
+                <h3 style="color: #ffb7c5; font-size: 1.5rem; margin-left: -10px; margin-bottom: 5px;">Siga-me</h3>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+        <p class="copy">&copy; 2026 --------. Todos os direitos reservados.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
